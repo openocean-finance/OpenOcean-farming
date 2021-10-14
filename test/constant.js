@@ -1,0 +1,11 @@
+const MULTIPLIER = ethers.BigNumber.from('1000000000000000000');
+const DOUBLE = MULTIPLIER.mul(MULTIPLIER);
+const SPEED = MULTIPLIER;
+const REWARD_DURATION = 100;
+
+module.exports = {
+    MULTIPLIER,
+    DOUBLE,
+    SPEED,
+    REWARD_DURATION
+}
